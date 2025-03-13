@@ -1,9 +1,11 @@
 <resources>
     <string name="app_name">Lab03</string>
-    <string name="enterName">Enter Name</string>
-    <string name="enterEmail">Enter Email</string>
+    <string name="enterName">Username</string>
+    <string name="enterEmail">Email</string>
     <string name="enterPassword">Enter Password</string>
     <string name="reEnterPassword">Re Enter Password</string>
     <string name="submit">Submit</string>
     <string name="cancel">Cancel</string>
+    <string name="passwordHint">Enter password</string>
+    <string name="re_enter_password_hint">Re-enter password</string>
 </resources>
