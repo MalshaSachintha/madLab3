@@ -1,0 +1,113 @@
+Index: app/src/main/res/layout/activity_main.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\r\n    xmlns:tools=\"http://schemas.android.com/tools\"\r\n    android:id=\"@+id/main\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"match_parent\"\r\n    android:orientation=\"vertical\"\r\n    tools:context=\".MainActivity\" >\r\n\r\n\r\n    <TextView\r\n        android:id=\"@+id/edtName\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"24dp\"\r\n        android:layout_marginLeft=\"16dp\"\r\n        android:layout_marginTop=\"16dp\"\r\n        android:layout_marginRight=\"16dp\"\r\n        android:layout_marginBottom=\"8dp\"\r\n        android:text=\"@string/enterName\" />\r\n\r\n    <EditText\r\n        android:id=\"@+id/textView\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"40dp\"\r\n        android:layout_marginLeft=\"16dp\"\r\n        android:layout_marginRight=\"16dp\"\r\n        android:layout_marginBottom=\"32dp\"\r\n        android:autofillHints=\"username\"\r\n        android:hint=\"@string/enter_name\"\r\n        android:inputType=\"text\" />\r\n\r\n    <TextView\r\n        android:id=\"@+id/edtEmail\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"24dp\"\r\n        android:layout_marginLeft=\"16dp\"\r\n        android:layout_marginRight=\"16dp\"\r\n        android:layout_marginBottom=\"8dp\"\r\n        android:text=\"@string/enterEmail\" />\r\n\r\n    <EditText\r\n        android:id=\"@+id/textView2\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"40dp\"\r\n        android:layout_marginLeft=\"16dp\"\r\n        android:layout_marginRight=\"16dp\"\r\n        android:layout_marginBottom=\"24dp\"\r\n        android:autofillHints=\"email\"\r\n        android:hint=\"@string/enter_email\"\r\n        android:inputType=\"textEmailAddress\" />\r\n\r\n    <TextView\r\n        android:id=\"@+id/edtPassword\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"24dp\"\r\n        android:layout_marginLeft=\"16dp\"\r\n        android:layout_marginRight=\"16dp\"\r\n        android:layout_marginBottom=\"8dp\"\r\n        android:text=\"@string/enterPassword\" />\r\n\r\n    <EditText\r\n        android:id=\"@+id/editTextTextPassword\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"40dp\"\r\n        android:layout_marginLeft=\"16dp\"\r\n        android:layout_marginRight=\"16dp\"\r\n        android:layout_marginBottom=\"32dp\"\r\n        android:autofillHints=\"password\"\r\n        android:ems=\"10\"\r\n        android:hint=\"@string/enter_password\"\r\n        android:inputType=\"textPassword\" />\r\n\r\n    <TextView\r\n        android:id=\"@+id/edtReEnterPassword\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"24dp\"\r\n        android:layout_marginLeft=\"16dp\"\r\n        android:layout_marginRight=\"16dp\"\r\n        android:layout_marginBottom=\"8dp\"\r\n        android:text=\"@string/reEnterPassword\" />\r\n\r\n    <EditText\r\n        android:id=\"@+id/editTextTextPassword4\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"40dp\"\r\n        android:layout_marginLeft=\"16dp\"\r\n        android:layout_marginRight=\"16dp\"\r\n        android:layout_marginBottom=\"32dp\"\r\n        android:autofillHints=\"password\"\r\n        android:ems=\"10\"\r\n        android:hint=\"@string/re_enter_password\"\r\n        android:inputType=\"textPassword\" />\r\n\r\n    <Button\r\n        android:id=\"@+id/btnSubmit\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_margin=\"16dp\"\r\n        android:text=\"@string/submit\" />\r\n\r\n    <Button\r\n        android:id=\"@+id/btnCancel\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_margin=\"16dp\"\r\n        android:text=\"@string/cancel\" />\r\n\r\n</LinearLayout>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/activity_main.xml b/app/src/main/res/layout/activity_main.xml
+--- a/app/src/main/res/layout/activity_main.xml	(revision da7d37eb33bfdb3a9ef5868bda97520c12250f70)
++++ b/app/src/main/res/layout/activity_main.xml	(date 1741868308762)
+@@ -9,101 +9,6 @@
+     tools:context=".MainActivity" >
+ 
+ 
+-    <TextView
+-        android:id="@+id/edtName"
+-        android:layout_width="match_parent"
+-        android:layout_height="24dp"
+-        android:layout_marginLeft="16dp"
+-        android:layout_marginTop="16dp"
+-        android:layout_marginRight="16dp"
+-        android:layout_marginBottom="8dp"
+-        android:text="@string/enterName" />
+-
+-    <EditText
+-        android:id="@+id/textView"
+-        android:layout_width="match_parent"
+-        android:layout_height="40dp"
+-        android:layout_marginLeft="16dp"
+-        android:layout_marginRight="16dp"
+-        android:layout_marginBottom="32dp"
+-        android:autofillHints="username"
+-        android:hint="@string/enter_name"
+-        android:inputType="text" />
+-
+-    <TextView
+-        android:id="@+id/edtEmail"
+-        android:layout_width="match_parent"
+-        android:layout_height="24dp"
+-        android:layout_marginLeft="16dp"
+-        android:layout_marginRight="16dp"
+-        android:layout_marginBottom="8dp"
+-        android:text="@string/enterEmail" />
+-
+-    <EditText
+-        android:id="@+id/textView2"
+-        android:layout_width="match_parent"
+-        android:layout_height="40dp"
+-        android:layout_marginLeft="16dp"
+-        android:layout_marginRight="16dp"
+-        android:layout_marginBottom="24dp"
+-        android:autofillHints="email"
+-        android:hint="@string/enter_email"
+-        android:inputType="textEmailAddress" />
+-
+-    <TextView
+-        android:id="@+id/edtPassword"
+-        android:layout_width="match_parent"
+-        android:layout_height="24dp"
+-        android:layout_marginLeft="16dp"
+-        android:layout_marginRight="16dp"
+-        android:layout_marginBottom="8dp"
+-        android:text="@string/enterPassword" />
+-
+-    <EditText
+-        android:id="@+id/editTextTextPassword"
+-        android:layout_width="match_parent"
+-        android:layout_height="40dp"
+-        android:layout_marginLeft="16dp"
+-        android:layout_marginRight="16dp"
+-        android:layout_marginBottom="32dp"
+-        android:autofillHints="password"
+-        android:ems="10"
+-        android:hint="@string/enter_password"
+-        android:inputType="textPassword" />
+-
+-    <TextView
+-        android:id="@+id/edtReEnterPassword"
+-        android:layout_width="match_parent"
+-        android:layout_height="24dp"
+-        android:layout_marginLeft="16dp"
+-        android:layout_marginRight="16dp"
+-        android:layout_marginBottom="8dp"
+-        android:text="@string/reEnterPassword" />
+-
+-    <EditText
+-        android:id="@+id/editTextTextPassword4"
+-        android:layout_width="match_parent"
+-        android:layout_height="40dp"
+-        android:layout_marginLeft="16dp"
+-        android:layout_marginRight="16dp"
+-        android:layout_marginBottom="32dp"
+-        android:autofillHints="password"
+-        android:ems="10"
+-        android:hint="@string/re_enter_password"
+-        android:inputType="textPassword" />
+ 
+-    <Button
+-        android:id="@+id/btnSubmit"
+-        android:layout_width="match_parent"
+-        android:layout_height="wrap_content"
+-        android:layout_margin="16dp"
+-        android:text="@string/submit" />
+-
+-    <Button
+-        android:id="@+id/btnCancel"
+-        android:layout_width="match_parent"
+-        android:layout_height="wrap_content"
+-        android:layout_margin="16dp"
+-        android:text="@string/cancel" />
+ 
+ </LinearLayout>
+\ No newline at end of file
